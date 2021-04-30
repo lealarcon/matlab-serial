@@ -4,4 +4,4 @@ clear all.
 s = serialport("/dev/ttyS0" ,9600) ;
 A= "Q";
 writeline(s,a)
-fprintf("TX-NodoA exitoso\n")
+fprintf("TX-NodoB exitoso\n")
