@@ -1,7 +1,7 @@
 % TX Nodo A
 clc
-clear all.
+clear all
 s = serialport("/dev/ttyS0" ,9600) ;
 A= "@";
-writeline(s,a)
+writeline(s,A)
 fprintf("TX-NodoA exitoso\n")
