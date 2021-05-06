@@ -3,5 +3,5 @@ clc
 clear all.
 s = serialport("/dev/ttyS0" ,9600) ;
 A= "Q";
-writeline(s,a)
+writeline(s,A)
 fprintf("TX-NodoB exitoso\n")
